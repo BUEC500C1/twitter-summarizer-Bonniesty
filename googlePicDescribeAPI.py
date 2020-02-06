@@ -5,7 +5,7 @@ import os
 # Imports the Google Cloud client library
 from google.cloud import vision
 from google.cloud.vision import types
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/tysun/Desktop/images_converting_library-master/ec500-hw2-ty-e4bb0831a55c.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="ec500-hw2-ty-e4bb0831a55c.json"
 client = vision.ImageAnnotatorClient()
 
 def generatePicDescription(folderName, describeSet):
