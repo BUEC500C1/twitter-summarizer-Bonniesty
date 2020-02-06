@@ -32,7 +32,7 @@ def get_all_tweets(account_name):
         textSet.append(status.text)
         #picture
         mediaData = status.entities.get('media',[])
-        if(len(mediaData) is 0):
+        if(len(mediaData) == 0):
             picSet.append('')
         else:    
             	picSet.append(mediaData[0]['media_url'])
@@ -45,11 +45,11 @@ def get_all_tweets(account_name):
     index = 0 
     cnt = 0
     for pic in picSet:
-        if pic is not '':
+        if pic != '':
             cnt = cnt+1
             urllib.request.urlretrieve(pic,"./picsTweet/pic%03d.jpg"%index)
         index = index +1    
-    if cnt is 0:
+    if cnt == 0:
         print("No picture in this account!")
 
     print("Finished Loading!!")  
