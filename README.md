@@ -36,4 +36,7 @@ However, for security reason, I have to delete all the credentials and the check
 
 # Example
 I use the account @AnimalPlanet and summary the 20 tweet feeds & related pictures.
-
+![image](https://github.com/BUEC500C1/twitter-summarizer-Bonniesty/blob/master/examplePic/summary01.png)
+![image](https://github.com/BUEC500C1/twitter-summarizer-Bonniesty/blob/master/examplePic/pic1.png)
+![image](https://github.com/BUEC500C1/twitter-summarizer-Bonniesty/blob/master/examplePic/summary02.png)
+![image](https://github.com/BUEC500C1/twitter-summarizer-Bonniesty/blob/master/examplePic/pic2.png)
