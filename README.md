@@ -30,6 +30,10 @@ python googlePicDescribeAPI.py
 
 # CB and CI
 This API has passed pytest testcase and github checks.
-![image](https://github.com/BUEC500C1/twitter-summarizer-Bonniesty/examplePic/CBCI.png)
+![image](https://github.com/BUEC500C1/twitter-summarizer-Bonniesty/blob/master/examplePic/CBCI.png)
 
 However, for security reason, I have to delete all the credentials and the checks will temporarely fail.  
+
+# Example
+I use the account @AnimalPlanet and summary the 20 tweet feeds & related pictures.
+
