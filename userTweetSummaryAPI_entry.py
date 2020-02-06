@@ -13,6 +13,8 @@ def entryAPI(youTwitterAccount):
     i= 0
     textSet = allSet[0]
     picSet = allSet[1]
+    if len(textSet) is 0:
+        return("No Account!")
     cnt = 0
     while i < len(textSet):
         print(i+1)
@@ -24,15 +26,15 @@ def entryAPI(youTwitterAccount):
             cnt = cnt+1
         i =i+1
         print("----------------------------------------")
+    return("Success!")
+
+ 
 
         
+        
+      
 
 if __name__ == '__main__':
-    try:
-        inputAccount = "@AnimalPlanet"
-    except:
-        print("Oops! There is no twitter account!")
-    else:
-        entryAPI(inputAccount)
+    entryAPI("@AnimalPlanet")
 
     
