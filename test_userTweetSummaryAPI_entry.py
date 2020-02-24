@@ -12,7 +12,7 @@ import userTweetSummaryAPI_entry as test
 def test_error():
     assert test.entryAPI("AAA") == "No Account!"
 
-def test_case_success():
+def test_case():
     pass
     #enter twitter credential to pass the test
     #assert test.entryAPI("@AnimalPlanet") == "Success!"
