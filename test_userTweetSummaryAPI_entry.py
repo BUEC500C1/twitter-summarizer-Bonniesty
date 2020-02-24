@@ -8,7 +8,6 @@ Created on Thu Feb  6 17:06:52 2020
 
 import pytest
 import userTweetSummaryAPI_entry as test
-le
 
 def test_error():
     assert test.entryAPI("AAA") == "No Account!"
