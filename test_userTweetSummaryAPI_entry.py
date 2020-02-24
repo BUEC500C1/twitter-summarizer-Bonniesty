@@ -19,8 +19,6 @@ def test_case_success():
     #assert test.entryAPI("@AnimalPlanet") == "Success!"
     #assert test.entryAPI("@KuoaiBBB") == "Success!"
  
-
-def test_case_success():
     
 if __name__ == "__main__":
     test_error()
